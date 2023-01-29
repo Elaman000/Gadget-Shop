@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+a{
+    text-decoration: none;
+}
+.zaga-conteiner{
+
+    background-color: #0755a7;
+    width: auto;
+    height: 470px;
+}
+.zaga-img{
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px ;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+.zaga-img .img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 1px ;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.zaga-img .img img{
+    animation: phone 2s linear infinite;
+}
+@keyframes phone{
+    0%{
+        transform: rotate(15deg,);
+    }
+    40%{
+        transform: rotate(15deg);
+    }
+    80%{
+        transform: rotate(-15deg);
+    }
+    100%{ 
+        transform: rotate(0deg);
+    }
+
+}
+
+
+.zaga-text{
+
+    font-size: 35px;
+    margin-top: 45px;
+    color: white;
+}
+.zaga-text p{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 25px;
+}
+
+.content-conteiner{
+    margin-top: 20px;
+    border: 1px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 1400px;
+    height: auto;
+}
+
+.content-conteiner input{
+    padding-left: 10px;
+    min-width: auto;
+    min-height: auto;
+    width: 1200px;
+    height: auto;
+    font-size: 40px;
+}
+
+.content-img{
+    border: 1px ;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.080);
+    margin-top: 15px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+.div-img{
+    background-color: white;
+    padding-top: 30px;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 240px;
+    height: 285px;
+    border: 1px;
+    transition: 0.6s;
+}
+.content-img div p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+}
+.img1:hover {
+    border-radius: 2em;
+}
+.img2:hover {
+    border-radius: 2em;
+}
+.img3:hover {
+    border-radius: 2em;
+}
+.img4:hover {
+    border-radius: 2em;
+}
+.img5:hover {
+    border-radius: 2em;
+}
+
+
+.center-img-content{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.center-img-content div{
+    width: auto;
+    height: auto;
+}
+.bottom-content{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-right: 110px;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    
+}
+
+.bottom-content .tovar{
+    position: relative;
+    margin-top: 20px;
+    width: 350px;
+    height: 500px;
+    border: 1px;
+    box-shadow: 0 0 6px black;
+    padding-top: 15px;
+    transition: 0.8s;
+}
+
+.bottom-content p{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 56%;
+    font-size: 25px;
+    color: black;
+}
+
+.bottom-content .baks{
+    bottom: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 45px;
+    background-color: 	#55a707;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+    left: 7%;
+}
+
+.bottom-content .button{
+    position: absolute;
+    left: 7%;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 45px;
+    background-color: 	orange;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+    border: 1px solid;
+}
+.tovar img{
+    transition: 0.5s;
+}
+
+
+.tovar1:hover img{
+    width: 240px;
+    height: 250px;
+}
+.tovar2:hover img{
+    width: 240px;
+    height: 250px;
+}
+.tovar3:hover img{
+    width: 240px;
+    height: 250px;
+}
+.tovar4:hover img{
+    width: 240px;
+    height: 250px;
+}
+.tovar5:hover img{
+    width: 240px;
+    height: 250px;
+}
+.tovar6:hover img{
+    width: 240px;
+    height: 250px;
+}
+
+.podval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0755a7;
+    width: auto;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
